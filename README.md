@@ -8,8 +8,15 @@ terms being repeated by number of times given.
 * File **should not** contain any headlines/column name rows
 * Values must **not be quoted**
 
-## Example of use, MVP
+## Getting started
+
+* Setup your go environment (for example in `~/go`)
+
 ```bash
+you@machine:~ cd ~/go
+you@machine:~/go go get github.com/wunderio/csvcolumnrepeater
+you@machine:~/go go install github.com/wunderio/csvcolumnrepeater
+you@machine:~/go cd ~
 you@machine:~ cat myfile.csv
 keywordA,1
 keywordB,2
