@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("csvrepeater must have one argument (filepath to CSV file)")
+		fmt.Println("csvcolumnrepeater must have one argument (filepath to CSV file)")
 		os.Exit(1)
 	}
 

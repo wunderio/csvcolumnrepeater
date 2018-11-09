@@ -1,4 +1,4 @@
-# CSV Repeater
+# CSV Column Repeater
 This utility command tool will use given CSV file to generate an output with
 terms being repeated by number of times given.
 
@@ -14,7 +14,7 @@ you@machine:~ cat myfile.csv
 keywordA,1
 keywordB,2
 keywordC,3
-you@machine:~ csvrepeater myfile.csv
+you@machine:~ csvcolumnrepeater myfile.csv
 keywordB
 keywordC
 keywordA
