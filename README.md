@@ -15,12 +15,12 @@ keywordA,1
 keywordB,2
 keywordC,3
 you@machine:~ csvcolumnrepeater myfile.csv
-keywordB
-keywordC
 keywordA
-keywordC
+keywordB
 keywordC
 keywordB
+keywordC
+keywordC
 ```
 
 ## Development ideas/improvements
